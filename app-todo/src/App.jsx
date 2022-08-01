@@ -7,10 +7,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   function decrement() {
-    setCount((prevCount) => prevCount - 1);
+    setCount(prevCount => prevCount - 1);
   }
   function increment() {
-    setCount((prevCount) => prevCount + 1);
+    setCount(prevCount => prevCount + 1);
   }
 
   const someStyle = {
