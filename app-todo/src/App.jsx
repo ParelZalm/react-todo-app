@@ -1,7 +1,7 @@
-import { useState } from "react";
-import Another from "./Another";
-import logo from "./logo.svg";
-import "./App.css";
+import { useState } from 'react';
+import Another from './Another';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,10 +14,10 @@ function App() {
   }
 
   const someStyle = {
-    background: "blue",
-    color: "white",
-    fontSize: "28px",
-    fontWeight: "bold",
+    background: 'blue',
+    color: 'white',
+    fontSize: '28px',
+    fontWeight: 'bold',
   };
   return (
     <div className="App">
